@@ -1,21 +1,3 @@
---teste
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-
---windows
-local Window = Library.CreateLib("soutt", "DarkTheme")
-
---tabs
-local Tab = Window:NewTab("script")
-
-Section:NewLabel("script")
-
-
---começo
-
-Section:NewButton("teste", "teste para jj", function()
-    print("sousou hub")
-end)
-
 - Crie uma Part chamada "BolaMovel" no Workspace
 local bolaMovel = Instance.new("Part")
 bolaMovel.Name = "BolaMovel"
